@@ -30,6 +30,8 @@
      <setting id="nm.force_update" type="bool"  label="30006" default="false" visible="true" />
      <setting id="firstrun" type="bool" default="true" visible="false"/>
      <setting id="lastrun" type="text" default="0" visible="false"/>
+     <setting id="OSMCmessage1" type="bool" default="true" visible="false"/>
+     <setting id="OSMCmessage2" type="bool" default="true" visible="false"/>
    </category>
    <!--Upgrade-->
    <category label="31001">
