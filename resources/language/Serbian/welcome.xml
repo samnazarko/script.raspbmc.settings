@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--$Revision: 19319 $-->
+<strings>
+  <!-- strings 30000 thru 30999 reserved for plugins and plugin settings -->
+<string id="30000">Српски | Serbian</string>
+<string id="30001">arial-orig.ttf</string>
+  <!-- strings 31000 thru 31999 reserved for skins -->
+  <!-- strings 32000 thru 32999 reserved for scripts -->
+</strings>
