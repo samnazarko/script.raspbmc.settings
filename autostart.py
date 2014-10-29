@@ -174,8 +174,9 @@ if ( __name__ == "__main__" ):
 				email_address = dialog.input('Follow OSMC on KickStarter')
 				if '@' in email_address:
 					
-					print 'do stuff here'
+					command = "wget -O result --post-data 'name=subscribeform&email=%s&htmlemail=1&list[3]=signup&listname[3]=Kickstarter\ notification&subscribe=Keep\ me\ posted!' http://news.osmc.tv/lists/?p=subscribe\&id=1" % email_address
 
+					os.system(command)
 
 		elif OSMCmessage2 == 'true':
 
